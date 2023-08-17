@@ -1,0 +1,87 @@
+syntax = "proto3";
+package BonusGamePlay;
+
+message PackageData {
+  uint32 header = 1;
+  bytes data = 2;
+}
+
+message Data {
+  int32 bonusGameRewardId = 1;
+  string bonusGameRewardName = 2;
+  int32 quantity = 3;
+  int32 jackpot = 4;
+  int32 type = 5;
+}
+
+message Response {
+  int32 status = 1;
+  Data data = 2;
+  string message = 3;
+  int32 gameType = 4;
+  int32 isUsedFreeTurn = 5;
+  int32 index = 6;
+  int32 feeTicketUsed = 7;
+  int32 feeHcTokenUsed = 8;
+  int32 messageType = 9;
+  int32 timeToNextFree = 10;
+}
+
+message ItemResponse {
+  repeated Data items = 1;
+  int32 status = 2;
+  string message = 3;
+  int32 gameType = 4;
+  int32 isUsedFreeTurn = 5;
+  int32 index = 6;
+  int32 feeTicketUsed = 7;
+  int32 feeHcTokenUsed = 8;
+  int32 messageType = 9;
+  int32 timeToNextFree = 10;
+}
+
+message DataScratch {
+  int32 bonusGameRewardId = 1;
+  string bonusGameRewardName = 2;
+  int32 quantity = 3;
+  int32 jackpot = 4;
+  int32 type = 5;
+  bool isResult = 6;
+}
+
+message ListResponseScratch {
+  int32 status = 1;
+  repeated DataScratch data = 2;
+  string message = 3;
+  int32 gameType = 4;
+  int32 messageType = 5;
+  int32 feeTicketUsed = 6;
+  int32 feeHcTokenUsed = 7;
+}
+
+message ItemResponseScratch {
+  int32 status = 1;
+  DataScratch data = 2;
+  string message = 3;
+  int32 gameType = 4;
+  int32 messageType = 5;
+  int32 feeTicketUsed = 6;
+  int32 feeHcTokenUsed = 7;
+}
+
+message UserInfo {
+  string token = 1;
+  string deviceId = 2;
+  string email = 3;
+  int32 payType = 4;
+}
+
+message ListRewardRandomBox {
+  repeated Data items = 1;
+  int32 status = 2;
+  string message = 3;
+  int32 gameType = 4;
+  int32 feeTicketUsed = 5;
+  int32 feeHcTokenUsed = 6;
+  int32 messageType = 7;
+}

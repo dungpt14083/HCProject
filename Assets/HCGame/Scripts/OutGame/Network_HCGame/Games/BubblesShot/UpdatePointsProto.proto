@@ -1,0 +1,4 @@
+syntax = "proto3";
+message UpdatePoints {
+  int32 score = 1; // null
+}

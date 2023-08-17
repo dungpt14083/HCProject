@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+message EndRoomWebsocketProto {
+
+    string firstUserCodeId = 1;
+    string avatarFirstUser = 2;
+    string secondUserCodeId = 3;
+    string avatarSecondUser = 4;
+    string roomId = 5;
+    string groupRoomId = 6;
+    int32 modeType = 7;             // 1 -  head_to_head, 2 - knock_out, 3 -  round_robin, 4 - one_to_many
+    string userNameFirstUser = 8;
+    string userNameSecondUser = 9;
+    int32 result = 10;              // 1 - first user win, 2 - second user win
+    int32 pointFirstUser = 11;
+    int32 pointSecondUser = 12;
+    int64 exp = 13;
+
+}
+
+message ListEndRoomWebsocketProto {
+    repeated EndRoomWebsocketProto listEndRoomWebsocket = 1;
+}

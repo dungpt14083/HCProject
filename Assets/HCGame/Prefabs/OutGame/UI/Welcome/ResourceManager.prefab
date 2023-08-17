@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6676507824784149301
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6676507824784149303}
+  - component: {fileID: 6676507824784149300}
+  m_Layer: 0
+  m_Name: ResourceManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6676507824784149303
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6676507824784149301}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6676507824784149300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6676507824784149301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92079e7d7cd70a74394b598e7e2a920a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprMiniGameIcons:
+  - {fileID: 21300000, guid: 0f84fc48081865e4e9ac28a9a0984440, type: 3}
+  - {fileID: 21300000, guid: cc283792024a6d24286ad8b5b32492ef, type: 3}
+  - {fileID: 21300000, guid: e24a0e70d9704e84298c54a96781ef8c, type: 3}
+  - {fileID: 21300000, guid: 6fa8f9691d1b4c04290e579062d799e1, type: 3}
+  - {fileID: 21300000, guid: 318a4327c7b7c4d4faf7ebfb9aaf15f6, type: 3}
+  sprMoneyIcons:
+  - {fileID: 21300000, guid: da45e726c6a2c6343bcb2777a48fe66e, type: 3}
+  - {fileID: 21300000, guid: 95d17d5c2397fce46824558d042f8bf9, type: 3}
+  - {fileID: 21300000, guid: e9a127ce8bf6c844ab240f755b7104fd, type: 3}
+  sprRewardIcons:
+  - {fileID: 21300000, guid: da45e726c6a2c6343bcb2777a48fe66e, type: 3}
+  - {fileID: 21300000, guid: 95d17d5c2397fce46824558d042f8bf9, type: 3}
+  - {fileID: 21300000, guid: e9a127ce8bf6c844ab240f755b7104fd, type: 3}
+  - {fileID: 21300000, guid: f9d9538d8c8ed284da4713b7487543a7, type: 3}
+  sprRewardLevelUpIcons:
+  - {fileID: 21300000, guid: da45e726c6a2c6343bcb2777a48fe66e, type: 3}
+  - {fileID: 21300000, guid: 95d17d5c2397fce46824558d042f8bf9, type: 3}
+  - {fileID: 21300000, guid: 63a072d95a350ad49946b1b84c010060, type: 3}
+  sprHomeBonusGameIcons:
+  - {fileID: 21300000, guid: 9c2f09442c4cf4b4e951b085a5cf9028, type: 3}
+  - {fileID: 21300000, guid: 8cbc83b91f9eb0b418e82ae725111292, type: 3}
+  - {fileID: 21300000, guid: 9bff6698747ade243912ba7cea6bac1e, type: 3}
+  sprTypeTournamentIcons:
+  - {fileID: 21300000, guid: 80b4f2af54eb264479d6707f754aefdb, type: 3}
+  - {fileID: 21300000, guid: 6b56cef54b3d32244bb931fb64289e04, type: 3}
+  - {fileID: 21300000, guid: 6be268815cffb6c4696e76c10a6b50f2, type: 3}
+  - {fileID: 21300000, guid: c24564d90b6816e4f8b3f207b94a6b37, type: 3}
+  sprCountDown:
+  - {fileID: 21300000, guid: a8619105ba2e83a499e49c87b0234000, type: 3}
+  - {fileID: 21300000, guid: 4031bd8918fe56c4f8f21cf03231eaf5, type: 3}
+  - {fileID: 21300000, guid: b26d7515ae734a94eb93ac7206714095, type: 3}
+  sprHomeIcon: {fileID: 21300000, guid: 02f5d82d859a15a459d50211118e4f98, type: 3}
+  sprEventIcon: {fileID: 21300000, guid: 6b7d43be611b44d4e8bdecf261a7b1ca, type: 3}
+  avatarDefault: {fileID: 21300000, guid: 6be3a4704712cff4c9aa362cbab2d36f, type: 3}
+  sprRewardMission:
+  - {fileID: 21300000, guid: 8a3027e5666313f40aac9a2fa6afc191, type: 3}
+  - {fileID: 21300000, guid: 1a8727056dbe1244385ed94bd32c6eac, type: 3}
+  - {fileID: 21300000, guid: b4cc22bd2fa13d94f884d18f136e859f, type: 3}
+  - {fileID: 21300000, guid: f9d9538d8c8ed284da4713b7487543a7, type: 3}
+  sprRewardIconsBiggest:
+  - {fileID: 21300000, guid: 8a3027e5666313f40aac9a2fa6afc191, type: 3}
+  - {fileID: 21300000, guid: 1a8727056dbe1244385ed94bd32c6eac, type: 3}
+  - {fileID: 21300000, guid: b4cc22bd2fa13d94f884d18f136e859f, type: 3}
+  - {fileID: 21300000, guid: f9d9538d8c8ed284da4713b7487543a7, type: 3}
+  sprRewardIconsSmallBonusGame:
+  - {fileID: 21300000, guid: 46b8bc9060d750548b926909021ecceb, type: 3}
+  - {fileID: 21300000, guid: 48a0193d1e986c24b8a530da58abadca, type: 3}
+  - {fileID: 21300000, guid: 7f150e82ffe8d8540b4d9c741a4a59cb, type: 3}
+  - {fileID: 0}
+  listTypeModeTournament:
+  - Head to Head
+  - Knock Out
+  - Round Robin
+  - One To Many

@@ -1,0 +1,76 @@
+syntax = "proto3";
+import "Fee.proto";
+import "Reward.proto";
+import "google/protobuf/timestamp.proto";
+
+message HcPlayHistoryProto {
+
+    int64 miniGameId = 1;//miniGameId
+
+    int32 modeGameId = 2;//modeGameId
+
+    int32 result = 3;//ket qua thang thua  1:thua 2:thang
+
+    int32 statusMatch = 4;//trang thai tran dau 1 :Inprocess,2 : player2 playing  ,3 :Finish ,-1: cancle
+
+    google.protobuf.Timestamp timeStart = 5; // Thoi gian bat dau
+
+    google.protobuf.Timestamp timeEnd = 6;//Thoi gian ket thuc
+
+    google.protobuf.Timestamp timeRefund = 7; // Thoi gian neu co refund
+
+    bool isEndTour = 8;//trang thai ket thuc tour
+
+    int32 isClaim = 9;//da nhan thuong hay khong . claim = 1 , 0 : chua claim
+
+    ListHcPlayHistoryUserProto user = 10 ;//information of user
+
+    Fee fee = 11; // fee  type 1: gold , 2: token , 3:ticket
+
+    ListReward reward = 12;// reward 1: gold , 2: token , 3:ticket, 4 :xp
+
+    int32 idHistory = 13; // id cua idHistory
+
+    int64 roomId = 14;// roomId
+
+    int64 tournamentTop = 15;// top cua tournamentTop hien tai
+
+    string hcGroupRoomId = 16;
+
+    int64 miniGameEventId = 17;
+
+    int32 numberPlayer = 18;
+
+    int32 numberPlayerNow = 19; //number player in tourament now
+
+    string miniGameName = 20; //name of minigame
+
+    string modeName = 21; //name of mode (exp head to head)
+
+    bool isRefund = 22; // được refund không 
+
+    bool isUserInEvent = 23 ; //user còn trong sự kiện đó không
+
+    bool isEventTime = 24; // Is the event time still available?
+
+    google.protobuf.Timestamp timeNowServer = 25; // time now server
+
+    bool receiveRefund = 26 ;// da nhan refund hay chua
+}
+
+message HcPlayHistoryUserProto {
+
+    string avatarUser = 1;//avatar user
+
+    string userName = 2;//userId
+
+    int64 score = 3;//diem cua nguoi choi
+}
+
+message ListHcPlayHistoryUserProto {
+    repeated HcPlayHistoryUserProto listHcPlayHistoryUserProto = 1;
+}
+
+message ListHcPlayHistoryProto {
+    repeated HcPlayHistoryProto listHcPlayHistoryProto = 1;
+}

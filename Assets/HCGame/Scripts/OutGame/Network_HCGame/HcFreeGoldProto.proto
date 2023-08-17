@@ -1,0 +1,9 @@
+syntax = "proto3";
+import "Reward.proto";
+
+message HcFreeGoldProto {
+
+    repeated Reward reward = 1;   // Phần thưởng
+
+    int64 rewardTime = 2;         // Thời gian nhận phần thưởng
+}

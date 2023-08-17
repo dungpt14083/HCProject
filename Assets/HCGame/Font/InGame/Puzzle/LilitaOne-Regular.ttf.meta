@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 2847fbe69e014f847a6727cd4b124edd
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Lilita One
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: ab4d129ffc848224699f038d4d3c5c80, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

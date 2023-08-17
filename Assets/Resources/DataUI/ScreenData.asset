@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26a2c37f89fc40f47b64c8e0def31e0d, type: 3}
+  m_Name: ScreenData
+  m_EditorClassIdentifier: 
+  userDataUI: {fileID: 7724359811474981561, guid: b6d2ea47eca6dfa4593bc245a38e5837, type: 3}
+  groupBottomHomeController: {fileID: 6827393002740375898, guid: 1840ac1e3e0cb4b498e264858d9396f7, type: 3}
+  screenInfos:
+  - uiView: {fileID: 4264579161788967579, guid: bf89cda17af254145a92ea9fd767eed1, type: 3}
+  - uiView: {fileID: 5798294990415275644, guid: 408ac6e65e95bd04a81fae6cdb02c026, type: 3}
+  - uiView: {fileID: 1453732816200644078, guid: 8d473b0d0d1501c4caea72de41a6f4cb, type: 3}
+  - uiView: {fileID: 2995323663016564089, guid: 1880559820c58ac4d86e59540d2d13b6, type: 3}
+  - uiView: {fileID: 6332377601159613412, guid: b5d76431cd7bea843a83c8e394d09094, type: 3}
+  - uiView: {fileID: 4510718201742199572, guid: 0151f946b25c2b848bc8acdbac8734aa, type: 3}
+  - uiView: {fileID: 7502120227159086360, guid: f3ab2efd645f1a74b91ea43313f2e792, type: 3}
+  - uiView: {fileID: 7266169537990778959, guid: d445207efe6274444b0c5a1055e10210, type: 3}
+  - uiView: {fileID: 4406894032134286752, guid: 8c1e9d11443d4c445a01ece58262b8b8, type: 3}
+  - uiView: {fileID: 5292264172009318069, guid: 7da56df900fb2d741b44bb3760d4a1f7, type: 3}
+  - uiView: {fileID: 3967417034002760476, guid: 699c265940dc5e94eb77e10d78c3c260, type: 3}
+  - uiView: {fileID: 4174954234244011457, guid: 89d05ceb7541b98489ccb5f30d347f24, type: 3}
+  - uiView: {fileID: 2590413475444185717, guid: e41e4a3ab794b6a4e8d41e0d02092cbc, type: 3}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+message BubbleShooterEndGame {
+  int32 score = 1;
+  int32 clearBoard = 2;
+  int32 timeBonus = 3;
+  int32 finalScores = 4;
+  int32 gameOverType = 5;
+}

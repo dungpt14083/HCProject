@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "Reward.proto";
+
+message LevelUp {
+    int32 level = 1;                     // level của người chơi
+    repeated Reward reward = 2;          // Phần thưởng người chơi nhận được khi lên cấp
+}

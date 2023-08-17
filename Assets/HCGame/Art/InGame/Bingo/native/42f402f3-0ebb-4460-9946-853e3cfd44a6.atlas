@@ -1,0 +1,111 @@
+
+ydy.png
+size: 529,268
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 93
+  size: 169, 173
+  orig: 173, 174
+  offset: 2, 1
+  index: -1
+lian
+  rotate: true
+  xy: 173, 118
+  size: 148, 134
+  orig: 148, 134
+  offset: 0, 0
+  index: -1
+下眼皮
+  rotate: false
+  xy: 405, 27
+  size: 81, 28
+  orig: 81, 28
+  offset: 0, 0
+  index: -1
+呆毛
+  rotate: false
+  xy: 245, 98
+  size: 28, 18
+  orig: 28, 18
+  offset: 0, 0
+  index: -1
+呼吸管
+  rotate: true
+  xy: 390, 125
+  size: 141, 137
+  orig: 146, 138
+  offset: 4, 1
+  index: -1
+手
+  rotate: false
+  xy: 332, 50
+  size: 54, 69
+  orig: 54, 69
+  offset: 0, 0
+  index: -1
+手2
+  rotate: true
+  xy: 309, 121
+  size: 145, 79
+  orig: 145, 79
+  offset: 0, 0
+  index: -1
+手臂
+  rotate: true
+  xy: 161, 10
+  size: 81, 110
+  orig: 81, 110
+  offset: 0, 0
+  index: -1
+手臂2
+  rotate: false
+  xy: 332, 2
+  size: 41, 46
+  orig: 45, 54
+  offset: 0, 1
+  index: -1
+眼珠
+  rotate: false
+  xy: 173, 93
+  size: 70, 23
+  orig: 70, 23
+  offset: 0, 0
+  index: -1
+眼睛
+  rotate: true
+  xy: 2, 3
+  size: 88, 44
+  orig: 90, 44
+  offset: 1, 0
+  index: -1
+耳朵
+  rotate: false
+  xy: 390, 57
+  size: 125, 66
+  orig: 125, 66
+  offset: 0, 0
+  index: -1
+身体
+  rotate: false
+  xy: 48, 5
+  size: 111, 86
+  orig: 111, 86
+  offset: 0, 0
+  index: -1
+閉眼
+  rotate: true
+  xy: 375, 11
+  size: 37, 28
+  orig: 86, 35
+  offset: 49, 7
+  index: -1
+领子毛
+  rotate: true
+  xy: 275, 14
+  size: 102, 55
+  orig: 115, 70
+  offset: 8, 8
+  index: -1

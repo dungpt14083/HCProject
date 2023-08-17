@@ -1,0 +1,24 @@
+turn.png
+size:887,233
+filter:Linear,Linear
+pma:true
+Ellipse 1
+bounds:351,7,223,224
+Layer 1
+bounds:2,2,229,347
+offsets:1,1,231,349
+rotate:90
+Layer 2
+bounds:576,31,200,123
+offsets:1,1,202,125
+rotate:90
+Layer 3
+bounds:701,17,79,94
+offsets:1,1,81,96
+Layer 5
+bounds:701,113,184,118
+offsets:7,0,191,118
+Layer 6
+bounds:782,60,51,60
+offsets:1,1,53,62
+rotate:90

@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+message TournamentRankingProto {
+
+    string userCodeId = 1;
+    string avatar = 2;
+    string username = 3;
+    int32 rating = 4;
+    int64 goldReward = 5;
+    int64 tokenReward = 6;
+    int64 ticketReward = 7;
+    int32 point=8;
+}
+
+message ListUserTournament {
+    int32 isEnd = 1;           // 1 - tournament đã kết thúc, 2 - tournament vẫn đang diễn ra
+    int32 isClaim = 2;         // 1 - được claim , 2 - không
+    string groupRoomId =3;
+    int32 totalRoom = 4;
+    int64 miniGameEventId = 5;
+    repeated TournamentRankingProto listUserTournament = 6;
+}

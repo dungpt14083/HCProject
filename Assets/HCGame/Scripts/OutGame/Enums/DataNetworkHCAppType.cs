@@ -1,0 +1,26 @@
+public enum DataNetworkHCAppType
+{
+    None = 0,
+    UserData = 1,
+    ListMiniGame = 2,
+    MiniGameEvent = 3,
+    TotalJackPot = 4,
+    UserGoldRanking = 5,
+    UserTokenRanking = 6,
+    MatchInfo = 7,
+    EndGameUser = 8,
+    EndRoom = 9,
+    DetailMiniGameEvent = 10,
+    DailyMission = 11,
+    DailyReward = 12,
+    Notification = 13,
+    TopJackpot = 14,
+    ActivityHistory = 15,
+    Tournament = 16,
+    RankTournament = 17,
+    UpdateNotification = 18,
+    UpdateMoney = 19,
+    GET_IMAGE = 20,
+    LevelUp =  22,
+    FREE_GOLD =  23
+}

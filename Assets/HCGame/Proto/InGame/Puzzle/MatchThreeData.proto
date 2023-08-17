@@ -1,0 +1,68 @@
+syntax = "proto3";
+package RoyalMatch;
+
+message Response {
+  int32 type = 1;
+  DataGame dataGame = 2;
+  DataGameOrtherPlayer dataGameOrtherPlayer = 3;
+}
+
+message DataGame {
+  int32 status = 1;
+  repeated Row nextGrid = 2;
+  repeated Row grid = 3;
+  repeated Position canClear = 4;
+  int32 points = 5;
+  bool needReset = 6;
+  int32 numberSwap = 7;
+  string jsonData = 8;
+}
+
+message Row {
+  repeated int32 row = 1;
+}
+
+message Position {
+  int32 x = 1;
+  int32 y = 2;
+}
+
+message PackageData {
+  uint32 header = 1; //1  find room  //2 find room response // 7000 game response
+  bytes data = 2;
+}
+
+message RoyalMatchAction {
+    int32 type = 1;
+    int32 row = 2;
+    int32 col = 3;
+}
+
+
+
+message DataGameOrtherPlayer {
+  string nickname = 1;
+  int32 status = 2;
+  int32 points = 3;
+  int32 numberSwap = 4;
+}
+
+
+message FindingRoom {
+    string  userCodeId = 1;
+    int32   level = 2;
+    int32   gameType = 3;
+    int32   playType = 4;
+    int32   mmr = 5;
+    CCData ccData=6;
+}
+message CCData {
+    uint64 miniGameEventId = 1;
+    uint64 waitingTimeId = 2;
+    string token = 3;
+}
+
+message FindingRoomResponse {
+    string roomId = 1;
+    string masterName = 2;
+}

@@ -1,0 +1,27 @@
+syntax = "proto3";
+import "Fee.proto";
+import "Reward.proto";
+
+message DetailMiniGameProto {
+
+     int64 miniGameEventId = 1;
+    string miniGameEventName = 2;    // Name of mini game event name
+    int64 miniGameId = 3;            // Mini game id
+    string miniGameName = 4;         // name mini game
+    string modeName = 5;             // Name of mode
+    int32 modeType = 6;              //  type tournament , 1 -  head_to_head, 2 - knock_out, 3 -  round_robin, 4 - one_to_many
+    int32 miniGameEventStatus = 7;   // status of mini game event
+    int32 numberInMiniGameEvent = 8; // number player
+    int32 conditionsType = 9;        // loại mini game sử dụng level
+    int32 underLevel = 10;           // dưới level   condition type 1
+    int32 overLevel = 11;            // trên level   condition type 2
+    Fee entryFee = 12;               // phí vào chơi
+    Reward prizePool = 13;           //
+    bool availableToPlay = 14;
+    int32 fromScreen = 15;           // Từ màn hình nào 1 - Từ mini game screen ;  2 - từ màn Event
+}
+
+
+message ListDetailMiniGameProto {
+    repeated DetailMiniGameProto listDetailMiniGameProto = 1;
+}

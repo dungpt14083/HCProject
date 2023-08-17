@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Prefabs/UI/Popup Page.prefab.meta
+guid: e1ebefcfcd7a428499f13e7c299c6833
+PrefabImporter:
+========
+guid: d6af07dd538eccd4f9a7a2fd836865cb
+folderAsset: yes
+DefaultImporter:
+>>>>>>>> develop:Assets/Prefabs/UI/FullScreenView.meta
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

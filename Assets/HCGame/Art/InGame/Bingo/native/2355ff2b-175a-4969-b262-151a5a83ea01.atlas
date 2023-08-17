@@ -1,0 +1,34 @@
+
+daoshu.png
+size: 1129,311
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1@3x
+  rotate: false
+  xy: 932, 11
+  size: 195, 298
+  orig: 203, 305
+  offset: 5, 4
+  index: -1
+2@3x
+  rotate: false
+  xy: 464, 9
+  size: 236, 300
+  orig: 245, 309
+  offset: 4, 4
+  index: -1
+3@3x
+  rotate: false
+  xy: 702, 2
+  size: 228, 307
+  orig: 237, 314
+  offset: 4, 4
+  index: -1
+GO@3x
+  rotate: false
+  xy: 2, 4
+  size: 460, 305
+  orig: 468, 314
+  offset: 5, 4
+  index: -1

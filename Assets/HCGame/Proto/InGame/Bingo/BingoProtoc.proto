@@ -1,0 +1,37 @@
+﻿syntax = "proto3";
+package hcGames.bingo;
+message PackageData {
+    uint32 header = 1;
+    bytes data = 2;
+}
+
+message CCData {
+    uint64 miniGameEventId = 1;
+    uint64 waitingTimeId = 2;
+    string token = 3;
+}
+
+message FindingRoom {
+    string  userCodeId = 1;
+    int32   level = 2;
+    int32   gameType = 3;
+    int32   playType = 4;
+    int32   mmr = 5;
+	CCData  ccData = 6;
+}
+
+message FindingRoomResponse {
+    string roomId = 1;
+    string masterName = 2;
+}
+
+message Request {
+  int32 type = 1; // 1-> START GAME, 2 -> SELECT NUMBER, 3-> CALL BINGO
+  int32 num = 2; // selected number for type = 2
+  int32 index = 3; // index booster
+}
+
+message Response {
+  uint32 header = 1; // header = 999 -> bingo
+    string data = 2; // json payload (gamePhase, currentScore...) (scores -> scores of other players)
+}

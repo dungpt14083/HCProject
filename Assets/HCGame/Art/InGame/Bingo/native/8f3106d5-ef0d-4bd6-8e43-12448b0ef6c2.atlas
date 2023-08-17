@@ -1,0 +1,146 @@
+
+sc2.png
+size: 1099,772
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shuicao2/sc2_00000
+  rotate: false
+  xy: 663, 2
+  size: 107, 383
+  orig: 200, 400
+  offset: 47, 9
+  index: -1
+shuicao2/sc2_00001
+  rotate: false
+  xy: 224, 387
+  size: 108, 383
+  orig: 200, 400
+  offset: 46, 9
+  index: -1
+shuicao2/sc2_00002
+  rotate: false
+  xy: 664, 387
+  size: 107, 383
+  orig: 200, 400
+  offset: 47, 9
+  index: -1
+shuicao2/sc2_00003
+  rotate: false
+  xy: 224, 2
+  size: 108, 383
+  orig: 200, 400
+  offset: 47, 9
+  index: -1
+shuicao2/sc2_00004
+  rotate: false
+  xy: 334, 387
+  size: 108, 383
+  orig: 200, 400
+  offset: 48, 9
+  index: -1
+shuicao2/sc2_00005
+  rotate: false
+  xy: 2, 387
+  size: 109, 383
+  orig: 200, 400
+  offset: 48, 9
+  index: -1
+shuicao2/sc2_00006
+  rotate: false
+  xy: 2, 2
+  size: 109, 383
+  orig: 200, 400
+  offset: 49, 9
+  index: -1
+shuicao2/sc2_00007
+  rotate: false
+  xy: 113, 387
+  size: 109, 383
+  orig: 200, 400
+  offset: 50, 9
+  index: -1
+shuicao2/sc2_00008
+  rotate: false
+  xy: 113, 2
+  size: 109, 383
+  orig: 200, 400
+  offset: 50, 9
+  index: -1
+shuicao2/sc2_00009
+  rotate: false
+  xy: 334, 2
+  size: 108, 383
+  orig: 200, 400
+  offset: 51, 9
+  index: -1
+shuicao2/sc2_00010
+  rotate: false
+  xy: 444, 387
+  size: 108, 383
+  orig: 200, 400
+  offset: 51, 9
+  index: -1
+shuicao2/sc2_00011
+  rotate: false
+  xy: 444, 2
+  size: 108, 383
+  orig: 200, 400
+  offset: 51, 9
+  index: -1
+shuicao2/sc2_00012
+  rotate: false
+  xy: 554, 387
+  size: 108, 383
+  orig: 200, 400
+  offset: 51, 9
+  index: -1
+shuicao2/sc2_00013
+  rotate: false
+  xy: 772, 2
+  size: 107, 383
+  orig: 200, 400
+  offset: 51, 9
+  index: -1
+shuicao2/sc2_00014
+  rotate: false
+  xy: 773, 387
+  size: 107, 383
+  orig: 200, 400
+  offset: 50, 9
+  index: -1
+shuicao2/sc2_00015
+  rotate: false
+  xy: 991, 387
+  size: 106, 383
+  orig: 200, 400
+  offset: 50, 9
+  index: -1
+shuicao2/sc2_00016
+  rotate: false
+  xy: 881, 2
+  size: 107, 383
+  orig: 200, 400
+  offset: 49, 9
+  index: -1
+shuicao2/sc2_00017
+  rotate: false
+  xy: 882, 387
+  size: 107, 383
+  orig: 200, 400
+  offset: 48, 9
+  index: -1
+shuicao2/sc2_00018
+  rotate: false
+  xy: 990, 2
+  size: 107, 383
+  orig: 200, 400
+  offset: 47, 9
+  index: -1
+shuicao2/sc2_00019
+  rotate: false
+  xy: 554, 2
+  size: 107, 383
+  orig: 200, 400
+  offset: 47, 9
+  index: -1

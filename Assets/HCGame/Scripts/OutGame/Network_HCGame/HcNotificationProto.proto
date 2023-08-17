@@ -1,0 +1,15 @@
+syntax = "proto3";
+import "google/protobuf/timestamp.proto";
+
+message HcNotificationProto {
+
+    string title = 1;
+    string content = 2;
+    int32 type = 3;
+    optional google.protobuf.Timestamp sendTime = 4;
+    int64 notificationId = 5;
+
+}
+message ListHcNotificationProto {
+    repeated HcNotificationProto listHcNotification = 1;
+}

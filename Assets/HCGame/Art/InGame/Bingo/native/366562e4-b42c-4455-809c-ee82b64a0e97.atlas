@@ -1,0 +1,13 @@
+
+paopao2.png
+size: 76,76
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pp
+  rotate: false
+  xy: 2, 2
+  size: 72, 72
+  orig: 72, 73
+  offset: 0, 0
+  index: -1

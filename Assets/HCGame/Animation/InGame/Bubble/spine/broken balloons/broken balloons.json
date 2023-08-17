@@ -1,0 +1,51 @@
+{
+"skeleton": {
+	"hash": "8YCBolkhIWY",
+	"spine": "4.1.19",
+	"x": -122.15,
+	"y": -114.63,
+	"width": 244,
+	"height": 230,
+	"images": "./images/",
+	"audio": "E:/bubble/broken balloons"
+},
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "1", "bone": "root", "attachment": "6" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"1": {
+				"1": { "x": -0.15, "y": 0.37, "width": 164, "height": 154 },
+				"2": { "x": -0.15, "y": -0.13, "width": 172, "height": 159 },
+				"3": { "x": -0.15, "y": -0.13, "width": 170, "height": 169 },
+				"4": { "x": -0.15, "y": -0.13, "width": 196, "height": 191 },
+				"5": { "x": 0.35, "y": 0.37, "width": 221, "height": 218 },
+				"6": { "x": -0.15, "y": 0.37, "width": 244, "height": 230 }
+			}
+		}
+	}
+],
+"animations": {
+	"Broken balloon": {
+		"slots": {
+			"1": {
+				"attachment": [
+					{ "name": "1" },
+					{ "time": 0.0667, "name": "2" },
+					{ "time": 0.1, "name": "3" },
+					{ "time": 0.1333, "name": "4" },
+					{ "time": 0.1667, "name": "5" },
+					{ "time": 0.2333, "name": "6" },
+					{ "time": 0.3667 },
+					{ "time": 0.8667 }
+				]
+			}
+		}
+	}
+}
+}

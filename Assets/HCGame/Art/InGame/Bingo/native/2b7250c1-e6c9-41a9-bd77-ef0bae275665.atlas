@@ -1,0 +1,27 @@
+
+sg.png
+size: 344,331
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BINGO
+  rotate: false
+  xy: 2, 2
+  size: 183, 53
+  orig: 185, 55
+  offset: 1, 1
+  index: -1
+kuang
+  rotate: true
+  xy: 201, 30
+  size: 299, 141
+  orig: 305, 145
+  offset: 3, 3
+  index: -1
+sg
+  rotate: false
+  xy: 2, 57
+  size: 197, 272
+  orig: 800, 800
+  offset: 336, 304
+  index: -1

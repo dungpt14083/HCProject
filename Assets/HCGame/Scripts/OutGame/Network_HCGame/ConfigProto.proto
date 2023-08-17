@@ -1,0 +1,28 @@
+syntax = "proto3";
+//import "google/protobuf/duration.proto";
+import "google/protobuf/timestamp.proto";
+import "Reward.proto";
+
+message config {
+
+    google.protobuf.Timestamp lastUpdateAvatar = 1;
+    google.protobuf.Timestamp lastUpdateFrame = 2;
+    google.protobuf.Timestamp lastUpdateBackground = 3;
+
+    int32 resetAvatar = 4 ;
+    int32 resetFrame = 5 ;
+    int32 resetBackground = 6 ;
+
+    repeated RewardInvited rewardInvited = 7; // các mức nhận phần thưởng khi mời
+}
+
+message RewardInvited {
+    int32 number = 1;
+    Reward reward = 2;
+}
+
+
+message listRewardInvited {
+    int32 number = 1;
+    Reward reward = 2;
+}

@@ -1,0 +1,16 @@
+broken balloons.png
+size:2048,256
+filter:Linear,Linear
+pma:true
+1
+bounds:1015,78,164,154
+2
+bounds:841,73,172,159
+3
+bounds:669,63,170,169
+4
+bounds:471,41,196,191
+5
+bounds:248,14,221,218
+6
+bounds:2,2,244,230

@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+
+message HcDailyMissionProto {
+
+    string name = 1;
+
+    string description = 2;
+
+    int64 reward = 3;
+
+    int32 typeReward = 4;
+
+    int32 inProgress = 5;
+
+    int32 toComplete = 6;
+
+    int64 id = 7;
+
+    int32 isClaim = 8;
+
+}
+
+message ListHcDailyMission {
+    repeated HcDailyMissionProto hcDailyMission = 1;
+}

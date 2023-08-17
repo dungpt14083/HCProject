@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message StatusCancel {
+  bool statusCancel = 1;
+}

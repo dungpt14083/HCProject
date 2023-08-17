@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/HCGame/Scenes/OutGame/Welcome.unity
+    guid: a277877f05ac54a469b76bb497f421d2
+  - enabled: 1
+    path: Assets/HCGame/Scenes/InGame/Bingo/Game Bingo.unity
+    guid: 92bc0a6e3ada95b4cafea9b5b549fb81
+  - enabled: 1
+    path: Assets/HCGame/Scenes/InGame/Puzzle/M3_NetworkGamePlay.unity
+    guid: 1c55349535a3017448b5cb3be333dcb9
+  - enabled: 1
+    path: Assets/HCGame/Scenes/InGame/8Ball/GameScene.unity
+    guid: cc305359b20c44c969982101dff7fdf5
+  - enabled: 1
+    path: Assets/HCGame/Scenes/OutGame/Home.unity
+    guid: d1837ccf5cb589242b61a3a837bd6f01
+  - enabled: 0
+    path: Assets/Scenes/Tournament.unity
+    guid: 1d4b522cadb6c45619652d8c8abacca3
+  - enabled: 1
+    path: Assets/HCGame/Scenes/OutGame/Game Matching.unity
+    guid: fed214446ff77f245a9d3c000cef1e1b
+  - enabled: 0
+    path: Assets/Scenes/Event Detail.unity
+    guid: dbf02dfffc51c9f43b426f85b3fa090c
+  - enabled: 1
+    path: Assets/HCGame/Scenes/InGame/Solitaire/Solitaire_GameScene.unity
+    guid: 8e89e22969c489a46a7a2c4deb20e765
+  - enabled: 1
+    path: Assets/HCGame/Scenes/InGame/Buble/BubbleLoading.unity
+    guid: 2212ef3c5d4821d44b3e861f477edc23
+  - enabled: 1
+    path: Assets/HCGame/Scenes/InGame/Buble/BubbleGameplay.unity
+    guid: e64cde0ff14e252458ceae822e9119d4
+  m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 60c11d869b9172c4ea481528239a2460, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 7237c4763e6878c46842ec3736168010, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 8bd61be9cdefb460e8a3920792ae1f05, type: 2}
+    com.unity.addressableassets: {fileID: 11400000, guid: 28583f72ac85b3742a82beb762f44bad, type: 2}

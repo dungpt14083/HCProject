@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message Fee {
+    int64 fee = 1;           // phí
+    int32 feeType = 2;       // loại phít
+}

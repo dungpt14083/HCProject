@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+message EndUserWebsocketProto {
+    repeated UserInfoProto user = 1;
+    string roomId = 2;
+    string groupRoomId = 3;
+    int32 statusSecondUser = 4;  // Trạng thái người chơi thứ hai, 1 -> playing now, 2 -> tobe determined , 3-> COMPLETED
+    int64 miniGameEventId = 5;
+    int64 miniGameId = 6;
+    int32 playTime = 7;
+    int64 point = 8;
+    int32 modeType = 9;          // 1 -  head_to_head, 2 - knock_out, 3 -  round_robin, 4 - one_to_many
+    string pointGameLogic = 10;  // Point detail của trận
+}
+
+message ListEndUserWebsocketProto {
+    repeated EndUserWebsocketProto listEndUserWebsocket = 1;
+}
+
+message UserInfoProto {
+    string userId = 1;
+    string userName = 2;
+    string avatar = 3;
+    int32 type = 4;                // 1 - bản thân, 2 - đối thủ
+}

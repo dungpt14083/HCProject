@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74d12b6ff988568458a08907739762a2, type: 3}
+  m_Name: PopupPriorityData
+  m_EditorClassIdentifier: 
+  defaultPriority: 10
+  popups:
+  - namePopup: TestLoginPopup
+    priority: 10
+    popup: {fileID: 8066645828257918068, guid: 7918238d42e032e44a3feef3a09450cc, type: 3}
+  - namePopup: LevelUp
+    priority: 10
+    popup: {fileID: 4102906080947698577, guid: 92a0526959ce48242a47e3e98f1f229d, type: 3}
+  - namePopup: LogoutPopup
+    priority: 10
+    popup: {fileID: 4429861625486245582, guid: 5358780a8563fb1499659c7b82e89747, type: 3}
+  - namePopup: DeleteAccountPopup
+    priority: 10
+    popup: {fileID: 3543284751192313905, guid: 85f1482cd8cd5474cbdb280367f3c6fc, type: 3}
+  - namePopup: NotifyPopup
+    priority: 10
+    popup: {fileID: 2263171326539338307, guid: 6077f5c1ce8fc7e4cae9423318e00a30, type: 3}
+  - namePopup: EditYourProfilePopup
+    priority: 6
+    popup: {fileID: 9114095874434160638, guid: 3638df5a48269794ca76e4fb7b1ffe12, type: 3}
+  - namePopup: DailyReward
+    priority: 10
+    popup: {fileID: 7764348009958457712, guid: a97000f588f805948843572a0b0141b8, type: 3}
+  - namePopup: DailyMission
+    priority: 10
+    popup: {fileID: 7527246531084549502, guid: 63db5e8f75193c343926f6d7888631de, type: 3}
+  - namePopup: JackPot
+    priority: 10
+    popup: {fileID: 5222079109695041123, guid: e184a3ed6c8634848bbe3d84065b0881, type: 3}
+  - namePopup: Notification
+    priority: 10
+    popup: {fileID: 2854236860708575988, guid: adbd2ffaafba70449bfa98c01efa3deb, type: 3}
+  - namePopup: ReferraPopup
+    priority: 10
+    popup: {fileID: 3945772257980417065, guid: 8a635665f0f73e14896cac7b9d2c79e9, type: 3}
+  - namePopup: CouponPopup
+    priority: 10
+    popup: {fileID: 810845647110125343, guid: a03992a489ca0fb469bc430cce44fe14, type: 3}
+  - namePopup: BonusGame_Popup
+    priority: 10
+    popup: {fileID: 8882350536378996048, guid: e84e92795e8411c418588fc1ff5ddb44, type: 3}
+  - namePopup: GameResultPopup
+    priority: 10
+    popup: {fileID: 8704740180287996910, guid: b4d479ae4fb538a4483c640e6e4571da, type: 3}
+  - namePopup: GameOverProcessPopup
+    priority: 10
+    popup: {fileID: 7354944369892159984, guid: a15376850b1ab994b93e9bdbde1aee5c, type: 3}
+  - namePopup: LevelUpPopup
+    priority: 5
+    popup: {fileID: 8177101579759058970, guid: 92a0526959ce48242a47e3e98f1f229d, type: 3}
+  - namePopup: Invite
+    priority: 10
+    popup: {fileID: 8106373123124252456, guid: a72730f965ce9bd4f838a388b9bb3a44, type: 3}
+  - namePopup: BonusGameGuide
+    priority: 10
+    popup: {fileID: 2404007725066135397, guid: 26ce7ac22f551234e9efb773d19a9857, type: 3}

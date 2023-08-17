@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+
+message TopJackpotProto {
+
+    string userCodeId = 1;
+    string avatar = 2;
+    string username = 3;
+    int32 rank = 4;
+    int64 reward = 5;
+    int32 typeReward = 6;
+
+}
+
+message ListTopJackpotProto {
+
+    repeated TopJackpotProto listTopJackpot = 1;
+    repeated TopJackpotProto listTopJackpotInWeek = 2;
+    int64 remainTime = 3;
+    int64 totalJackpot = 4;
+}

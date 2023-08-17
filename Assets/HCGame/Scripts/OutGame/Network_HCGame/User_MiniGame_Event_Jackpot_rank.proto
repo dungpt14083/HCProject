@@ -1,0 +1,116 @@
+syntax = "proto3";
+//import "google/protobuf/duration.proto";
+//import "google/protobuf/timestamp.proto";
+import "Reward.proto";
+import "Fee.proto";
+import "DetailMiniGameProto.proto";
+
+message PackageDataApp {
+    uint32 type = 1;
+    bytes data = 2;
+}
+
+message UserDataProto {
+    int64 id = 1;
+    string userName = 2;
+    int64 userGold = 3;
+    int64 userToken = 4;
+    int64 userTicket = 5;
+    int32 isInvited = 6;        // Đã sử dụng code mời hay chưa: 1 đã sử dụng, 2 chưa sử dụng
+    string userCodeId = 7;
+    int32 level = 8;
+    int32 numberInvited = 9;
+    int64 exp = 10;
+    int64 expToNextLevel = 11;
+    string referralCode = 12;
+    repeated MmrUser mmr = 13;
+    bool firstEditUsername = 14;    // Đã đổi usename hay chưa: 1 đã đổi, 2 chưa đổi
+    int32 maxNumberInvited  = 15;   // Số lượng người mời tối đa
+    string background = 16;
+    Reward rewardReferralCode = 17;
+    string userAvatar = 18;
+    string frame = 19;
+}
+
+
+message MmrUser {
+
+    int32 mmr = 1;
+    int64 miniGameCode = 2;
+}
+
+message MiniGameProto {
+    int64 id = 1;
+    string name = 2;
+}
+
+message ListMiniGameProto {
+    repeated MiniGameProto listMiniGame = 1;
+}
+
+
+message MiniGameEventProto {
+
+    int64 miniGameEventId = 1;                  // id minigame event
+    string miniGameModeName = 2;                // name of mode mini game
+    repeated Reward miniGamePricePool = 3;      // total reward for mode mini game
+    int32 numberPlayer = 4;                     // number minigame
+    repeated Fee entryFee = 5;                  // phí chơi game
+    int32 typeMode = 6;                         // type tournament , 1 -  head_to_head, 2 - knock_out, 3 -  round_robin, 4 - one_to_many
+    int64 miniGameId = 7;                       // 1 - 8Ball ; 2 - Bingo  ;  3 - Puzzle ;  4 - Solitaire ;  5 - Bubble ;
+    DetailMiniGameProto detail = 8;
+//    int64 gameType = 1;
+//    int32 modeMiniGameType = 2;
+//    int64 miniGamePricePool = 3;
+//    int32 numberPlayer = 4;
+//    int32 fee = 5;
+//    int32 typePricePool = 6;
+//    int32 typeFee = 7;
+
+}
+
+message ListMiniGameEventProto {
+    repeated DetailMiniGameProto listMiniGame = 1;
+}
+
+message TotalJackpotProto {
+    int64 total = 1;
+}
+
+message Avatar {
+    string avatar = 1;
+}
+
+message Background {
+    string background = 1;
+}
+message FrameAvatar {
+    string frameAvatar = 1;
+}
+
+message ListAvatar {
+    repeated Avatar avatar = 1;
+    int32 currentChoose = 2;
+}
+
+message ListBackground {
+    repeated Background background = 1;
+    int32 currentChoose = 2;
+}
+
+message ListFrameAvatar {
+    repeated FrameAvatar frameAvatar = 1;
+    int32 currentChoose = 2;
+}
+
+message ListImage {
+    ListAvatar listAvatar = 1;
+    ListBackground listBackground = 2;
+    ListFrameAvatar listFrameAvatar = 3;
+}
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+syntax = "proto3";
+import "Reward.proto";
+import "Fee.proto";
+
+message InformationTournamentProto {
+
+    string nameTournament = 1;   // Tên tournament
+    int32 numberRound = 2;       // số lượng round
+    int32 numberPlayer = 3;      // số lượng người chơi
+    repeated Reward prizePool = 4;  // Tổng giải thưởng
+    repeated Fee fee = 5;           // phí vào chơi
+    int64 miniGameSettingId = 6;
+    repeated RewardRanking rewardRanking = 7; // Danh sách phần thưởng
+
+}
+
+message RewardRanking {
+    int32 rangeFrom = 1;    // thứ từ hạng từ
+    int32 rangeTo = 2;      // thứ hạng đến
+    repeated Reward reward = 3; // phần thưởng
+}

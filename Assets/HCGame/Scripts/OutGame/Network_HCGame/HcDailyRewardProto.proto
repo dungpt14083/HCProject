@@ -1,0 +1,19 @@
+syntax = "proto3";
+import "Reward.proto";
+
+message HcDailyRewardProto {
+    int32 day = 1;            // ngày
+    Reward reward = 2;        // Phần thưởng
+}
+
+message Date7 {
+    int32 day = 1;                  // Ngày
+    repeated Reward reward = 2;     // List phần thưởng
+}
+
+message ListHcDailyRewardProto {
+    repeated HcDailyRewardProto listHcDailyReward = 1;
+    Date7 date7 = 2;
+    int32 countCheck = 3;                     // Số ngày đã được nhận
+    bool received = 4;                        // được nhận hay không
+}

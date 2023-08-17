@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - callPocket
+  - Ball
+  - Pot4
+  - Pot3
+  - Pot6
+  - Pot1
+  - WhiteBallLimit
+  - Pot2
+  - Pot5
+  - WhiteBall
+  - bumper
+  - Ball1
+  - Ball2
+  - Ball3
+  - Ball4
+  - Ball5
+  - Ball6
+  - Ball7
+  - Ball8
+  - Ball9
+  - Ball10
+  - Ball11
+  - Ball12
+  - Ball13
+  - Ball14
+  - Ball15
+  - PotTrigger
+  - Ticket
+  - Token
+  - Gold
+  - Mesh
+  - FxTemporaire
+  - orange
+  - red
+  - yellow
+  - Rainbow
+  - blue
+  - green
+  - pink
+  - violet
+  - brown
+  - gray
+  - Pot
+  - empty
+  - colorful
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - IconMoney
+  - TextValue
+  - TopAndBottomHome
+  - Ball
+  - WhiteBall
+  - Pots
+  - Balls
+  - WhiteBallBeforeCollision
+  - PotTrigger
+  - Popup
+  - 
+  - gui
+  - Mesh
+  - Obstacles
+  - Pot
+  - FallingBall
+  - Border
+  - TopBorder
+  - Bug
+  - NewBall
+  - Gun
+  - tutorial
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: New Layer 1
+    uniqueID: 3237387039
+    locked: 0
+  - name: UI layer
+    uniqueID: 3782636167
+    locked: 0
+  - name: IconMoney
+    uniqueID: 1162192363
+    locked: 0
+  - name: TextValue
+    uniqueID: 1027266935
+    locked: 0
+  - name: TopAndBottomHome
+    uniqueID: 3561948873
+    locked: 0
+  - name: Popup
+    uniqueID: 2283406917
+    locked: 0
+  - name: tutorial
+    uniqueID: 3687019943
+    locked: 0

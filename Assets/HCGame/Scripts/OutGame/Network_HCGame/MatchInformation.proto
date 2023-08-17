@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message MatchInformation {
+
+    string firstUserName = 1;
+    string secondUserName = 2;
+    string avatarFirstUser = 3;
+    string avatarSecondUser = 4;
+}
+
+message ListMatchInformation {
+    repeated MatchInformation listMatchInformation = 1;
+}

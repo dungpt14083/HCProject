@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message Reward {
+    int64 reward = 1;
+    int32 rewardType = 2;
+}
+
+message ListReward {
+    repeated Reward reward = 1;
+}

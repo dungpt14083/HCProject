@@ -1,0 +1,1699 @@
+fileFormatVersion: 2
+guid: 4d1ead52015083d4fb49abe4431fb117
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: atlas sprite button_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 955
+        width: 588
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7ec39af17e49d4bbe6d0eadafd002d
+      internalID: 1878020565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_1
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 941
+        width: 405
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b0e9c7951908994fa41a186d52f1dfb
+      internalID: 1917011027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_2
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 833
+        width: 568
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9985708145b318244b78b9ff56345ba2
+      internalID: -1451006160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_3
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 894
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695f2fdd0fc605343acf848b94e24e19
+      internalID: 177365880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_4
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 894
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d5cfed2422b014bb65220b8a38b457
+      internalID: -1083941048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_5
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 894
+        width: 10
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b130828f31a287944b9d447fec978783
+      internalID: 1340787462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_6
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 894
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76791492c0a1314d911ef363ab1344a
+      internalID: 883063692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_7
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 928
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50bf439e99285b4458eb8852af174c7b
+      internalID: 242619299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_8
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 894
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e98dcc6f7b41734e88b258ae939dc79
+      internalID: 289309484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_9
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 894
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 927f233e0a98d584e9127c72d1aa35e8
+      internalID: -506565250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_10
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 882
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b432dcf4537b3f649859f7343737de65
+      internalID: -436203892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_11
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 894
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95e29200246b3d4a8b44e939f10c223
+      internalID: 193405020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_12
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 894
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f3ea4905eaefb46935a5414a5ac1fd
+      internalID: -2004952655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_13
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 894
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bdb4f87a218ac047852039f4d0fc592
+      internalID: -1498296622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_14
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 894
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2567cf149c63ba541beac168f031c6c0
+      internalID: -2096909263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_15
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 894
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389b96d0854086147b134ed427ec11a6
+      internalID: -291889146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_16
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 894
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03eeeb275ef3c6a438f9c1c76cd41344
+      internalID: 783453868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_17
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 894
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b067203089067eb418a2475548e562aa
+      internalID: -1636377562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_18
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 894
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0330a9c6b40005443a2d9e72a811099c
+      internalID: -1005353306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_19
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 797
+        width: 405
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc35ad91e2b65f045b483c35e4730cbb
+      internalID: 1912286978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_20
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 843
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4f2aed457828f47962207ec950a68d
+      internalID: -1886651588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_21
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 635
+        width: 568
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d345abf0f9181499fe9954eadf7729
+      internalID: -602170843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_22
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 804
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4a4792e17290248b3607fb5943581c
+      internalID: -1910572381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_23
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 740
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93552393f49ba73459b32955288f2a5d
+      internalID: 772228425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_24
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 781
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db6233412adbbe4e901a5176506f615
+      internalID: 760683734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_25
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 781
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af9e6b243d39dd46b351577cc2c805d
+      internalID: -154634605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_26
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 740
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551bbd67ddb9bbb4d9e413b8e9556f9b
+      internalID: 2027151635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_27
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 740
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2c0c546bc9e684680133e8a03d0975
+      internalID: -780365670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_28
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 753
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53ce7c7061126a4b9292770728ac116
+      internalID: -322099524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_29
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 740
+        width: 11
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a75d6f90d55344dbe5f80562c169d1
+      internalID: 710932506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_30
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 740
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab72f6d5195bf6849bba8300cbf10cc9
+      internalID: 1761935386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_31
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 740
+        width: 11
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b712a0585d75c4e922b3d35ba2f366
+      internalID: -1734615217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_32
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 740
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f965927dcc41fbc4eb440f1a9a322d4f
+      internalID: -741033696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_33
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 740
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f92446ffd8eb448b65f45e7acddd16
+      internalID: -2088310545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_34
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 740
+        width: 62
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079d28ef73df551419772dc56c3deb82
+      internalID: -2087595132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_35
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 740
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcaf34e2971c5be4c9e49cece975378f
+      internalID: -209906780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_36
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 740
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3aeca2590c3d34e8841e3dbc3d9ee5
+      internalID: -109063625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_37
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 655
+        width: 405
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71c5e5c25ee14240b606518a2c0ef29
+      internalID: 1760854739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_38
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 703
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c916e3e20924c4f85ca5b3ecfe066a
+      internalID: -1656525821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_39
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 666
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b2579711d3fe742a79def747244457
+      internalID: -303193414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_40
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 574
+        width: 75
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f46f5ad4316934aa62cc7c3304354b
+      internalID: 114762956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_41
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 574
+        width: 275
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c98593c7c4fe3534b9269a626cc0d861
+      internalID: -458065607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_42
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 574
+        width: 148
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806c5b3aa4d2d8841a6582421da32087
+      internalID: 1046184974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_43
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 590
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0528989ff62f95947bf3c23bd47d2823
+      internalID: 1471083321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_44
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 570
+        width: 405
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7eee14f2056bca479f619b11a5182c6
+      internalID: -1039899700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_45
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 629
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261d2b6f35688c04abf154aedfb6ce01
+      internalID: 51362206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_46
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 14
+        width: 114
+        height: 551
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c4c7dd0e153a9d40b4a8c7ef9248ac5
+      internalID: -665000180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_47
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 270
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14df7a67a0c4c77449213ac45c3515d6
+      internalID: -1401729658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_48
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 483
+        width: 87
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a74aa3f86a5d73438c0ac5431e9366d
+      internalID: -919917715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_49
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 542
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4189d05da703347a805c238c52b076
+      internalID: 1921693667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_50
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 452
+        width: 449
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e76ce25d68d47645b9e8e799240b8f0
+      internalID: 480764291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_51
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 490
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9853f98620dad743900c043d9cde8b8
+      internalID: 1755646870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_52
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 394
+        width: 87
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c419dbfdb654cc40a1860e1753e897a
+      internalID: -567387777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_53
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 450
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e8b4fd4221aaa4fa94a7fdbaa5dfd9
+      internalID: 672431021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_54
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 305
+        width: 87
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35754d6fc560fb248b3994622c16806d
+      internalID: -1752655191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_55
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 385
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aeb14d88aa186a409a737326cdee85d
+      internalID: -326243749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_56
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 334
+        width: 449
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0006ee8facc2bf54d8ebae6a95814a3a
+      internalID: -1256724390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_57
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 339
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9b4f147d2f51841b781ae274f1e144
+      internalID: -2130764061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_58
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 300
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ba8882f500c6146a116a2751a275f0
+      internalID: -1331518436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_59
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 216
+        width: 449
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f5224d89205be41a20d345abc7b54c
+      internalID: 1569154524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_60
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 259
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998725c72b7d228458e03ab5764738e9
+      internalID: -561437871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_61
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 21
+        width: 64
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5866de8d14c07ba4aadcf1a71e645ca9
+      internalID: 804070979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_62
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 168
+        width: 372
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 32, y: 0, z: 34, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000a067602aa70643868769fb9975851
+      internalID: 1477156572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_63
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 22
+        width: 135
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5f5901e723abf4787e9a43943e0e88
+      internalID: 1134069595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_64
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 202
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831ee4158f8b14242ab4bdd24c1793bd
+      internalID: -1522076706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_65
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 27
+        width: 298
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc15c6f2ee1f835419c3e27d4b456b0d
+      internalID: -1684344948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_66
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 171
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333b7c63d2ffc1148a0a69755a3d81bb
+      internalID: 645980727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_67
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 5
+        width: 159
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca2ad948f3827c438ebee6cf15a0168
+      internalID: -1093883185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_68
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 5
+        width: 57
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c396561bc9f007439b93de6a235d593
+      internalID: 924426688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas sprite button_69
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 14
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e53bc6875f608447a0da6a31618d44f
+      internalID: 1011288221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 279f42bbb430c2b468fe41945966ceff
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      atlas sprite button_68: 924426688
+      atlas sprite button_60: -561437871
+      atlas sprite button_30: 1761935386
+      atlas sprite button_15: -291889146
+      atlas sprite button_46: -665000180
+      atlas sprite button_33: -2088310545
+      atlas sprite button_47: -1401729658
+      atlas sprite button_37: 1760854739
+      atlas sprite button_6: 883063692
+      atlas sprite button_67: -1093883185
+      atlas sprite button_65: -1684344948
+      atlas sprite button_9: -506565250
+      atlas sprite button_31: -1734615217
+      atlas sprite button_56: -1256724390
+      atlas sprite button_36: -109063625
+      atlas sprite button_38: -1656525821
+      atlas sprite button_40: 114762956
+      atlas sprite button_49: 1921693667
+      atlas sprite button_11: 193405020
+      atlas sprite button_24: 760683734
+      atlas sprite button_63: 1134069595
+      atlas sprite button_48: -919917715
+      atlas sprite button_22: -1910572381
+      atlas sprite button_45: 51362206
+      atlas sprite button_28: -322099524
+      atlas sprite button_0: 1878020565
+      atlas sprite button_2: -1451006160
+      atlas sprite button_3: 177365880
+      atlas sprite button_25: -154634605
+      atlas sprite button_39: -303193414
+      atlas sprite button_54: -1752655191
+      atlas sprite button_59: 1569154524
+      atlas sprite button_62: 1477156572
+      atlas sprite button_19: 1912286978
+      atlas sprite button_43: 1471083321
+      atlas sprite button_55: -326243749
+      atlas sprite button_34: -2087595132
+      atlas sprite button_27: -780365670
+      atlas sprite button_10: -436203892
+      atlas sprite button_21: -602170843
+      atlas sprite button_29: 710932506
+      atlas sprite button_42: 1046184974
+      atlas sprite button_13: -1498296622
+      atlas sprite button_58: -1331518436
+      atlas sprite button_52: -567387777
+      atlas sprite button_53: 672431021
+      atlas sprite button_16: 783453868
+      atlas sprite button_17: -1636377562
+      atlas sprite button_18: -1005353306
+      atlas sprite button_23: 772228425
+      atlas sprite button_69: 1011288221
+      atlas sprite button_1: 1917011027
+      atlas sprite button_20: -1886651588
+      atlas sprite button_7: 242619299
+      atlas sprite button_66: 645980727
+      atlas sprite button_32: -741033696
+      atlas sprite button_4: -1083941048
+      atlas sprite button_26: 2027151635
+      atlas sprite button_12: -2004952655
+      atlas sprite button_61: 804070979
+      atlas sprite button_5: 1340787462
+      atlas sprite button_57: -2130764061
+      atlas sprite button_35: -209906780
+      atlas sprite button_50: 480764291
+      atlas sprite button_51: 1755646870
+      atlas sprite button_14: -2096909263
+      atlas sprite button_44: -1039899700
+      atlas sprite button_41: -458065607
+      atlas sprite button_8: 289309484
+      atlas sprite button_64: -1522076706
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

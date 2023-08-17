@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message RewardUser {
+
+    int64 ticket = 1;
+    int64 token = 2;
+    int64 gold = 3;
+    int64 level = 4;
+    string userId = 5;
+}
+
+message ListRewardUser {
+    repeated RewardUser listRewardUser = 1;
+}

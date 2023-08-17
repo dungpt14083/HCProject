@@ -1,0 +1,14 @@
+laser.png
+size:1204,103
+filter:Linear,Linear
+pma:true
+light 1
+bounds:2,74,1200,27
+light2
+bounds:2,59,1200,13
+light3
+bounds:2,50,1184,7
+set 1
+bounds:2,26,1160,22
+set 2
+bounds:2,2,1160,22

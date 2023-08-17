@@ -1,0 +1,44 @@
+box.png
+size:1486,734
+filter:Linear,Linear
+pma:true
+Ellipse 2 copy
+bounds:2,332,924,400
+offsets:5,5,934,410
+Ellipse 3
+bounds:1372,191,72,72
+offsets:4,4,80,80
+Ellipse 3 copy 2
+bounds:1372,56,62,62
+offsets:3,3,68,68
+Ellipse 3 copy
+bounds:1372,56,62,62
+offsets:3,3,68,68
+Ellipse 3 copy 3
+bounds:1372,120,69,69
+offsets:4,4,77,77
+Ellipse 3 copy 4
+bounds:811,247,83,83
+offsets:3,3,89,89
+Ellipse 3 copy 5
+bounds:811,2,55,55
+offsets:4,4,63,63
+Group 1 copy 2
+bounds:928,276,456,348
+offsets:1,1,458,350
+rotate:90
+Layer 4
+bounds:811,59,559,186
+offsets:335,80,1082,1372
+Layer 8
+bounds:2,5,496,325
+offsets:1,1,498,327
+c83c8ff3d5f5291e2934297f5b6128b7834db5a423493-ZH2KVY_fw658
+bounds:500,22,309,308
+offsets:5,15,317,326
+c83c8ff3d5f5291e2934297f5b6128b7834db5a423493-ZH2KVY_fw658 copy
+bounds:1278,265,188,209
+offsets:2,4,193,222
+c83c8ff3d5f5291e2934297f5b6128b7834db5a423493-ZH2KVY_fw658 copy 2
+bounds:1278,476,206,256
+offsets:3,2,220,269

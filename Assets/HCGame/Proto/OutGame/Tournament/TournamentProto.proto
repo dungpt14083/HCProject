@@ -1,0 +1,45 @@
+syntax = "proto3";
+
+message TournamentProto {
+
+    repeated RoomTournamentProto roomTournament = 1;   // List Room in tournament
+    string groupRoomId = 2;                            // id of tournament
+    int32 round = 3;                                   // current round of user
+    repeated RewardTournament reward = 4;                        // list reward for top ranking user
+    int32 typeMode = 5;                                // type tournament , 1 -  head_to_head, 2 - knock_out, 3 -  round_robin, 4 - one_to_many
+    int32 totalRound = 6;                              // tổng số round
+    int32 result = 7;                                  // 2 -  thất bại và không được chơi tiếp, 1 - thắng và được tiếp tục vào round tiếp theo
+    int64 endTime = 8;                                  // time left - số giây còn lại để kết thúc round -> Khi kết thúc round thì không hiển thị nút play next now
+    int64 miniGameEventId = 9;
+    int32 totalRoom = 10;                              // tổng phòng có trong tournament
+    bool isEnd = 11;                                   // true - tournament đã kết thúc, false - tournament vẫn đang diễn ra
+    int32 isEndTime = 12;                              // 1 - co endTime, 2 - khong co endTime
+    string nameTournament = 13;                        // name of tournament
+}
+
+message RoomTournamentProto {
+    int32 round = 1;                                 // round of room
+    int32 position = 2;                              // position of room
+    repeated UserTournament user = 3;                // list user in room
+    string roomId =4;                                // this room id
+    int32 status = 5;                                // 1 - inprocess, 2 -waitting, 3-completed, 4-cancel
+    int32 isPlay = 6;                                 // 1 - không hiển thị kiếm, 2 - hiển thị kiếm nhưng không được phép chơi, 3 - hiển thị kiếm và được phép chơi
+}
+
+message UserTournament {
+    string userCodeId = 1;                       // infor user
+    string username = 2;
+    string avatar = 3;
+    int32 status = 4;                            // 1 - active, 2- banned,  3 - resigned, 4- delete
+    int32 point = 5;                             // điểm số
+    int32 position = 6;                          // 1 - first, 2 -second          
+    int64 userId = 7;
+    int32 result = 8;                            // 1 - lose, 2 - win
+    int32 playStatus = 9;                            // 1 - yet to play, 2 - playing now
+}
+
+message RewardTournament {
+    int32 position = 1;               // rank user
+    int64 reward = 2;                 // reward
+    int32 typeReward = 3;             // type reward
+}

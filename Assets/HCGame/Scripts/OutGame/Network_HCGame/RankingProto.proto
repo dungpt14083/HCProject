@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+message UserRankingProto {
+  string userId = 1;          // id user
+  string hcUserName = 2;      // username
+  int64 value = 3;            // giá trị
+  int64 rank = 4;             // rank
+  string avatar = 5;          // avatar
+  int64 reward = 6;           // phần thưởng
+  int32 typeReward = 7;       // loại phần thưởng
+}
+
+message ListUserRankingProto {
+  repeated UserRankingProto listUserRanking = 1;          // list từ 1 - 50
+  repeated UserRankingProto listRankingOutTop = 2;        // list nếu user ko trong top
+  int64 endDate = 3;                                          // ngày kết thúc rank
+  int32 typeRank = 4;                                         // loại rank
+}

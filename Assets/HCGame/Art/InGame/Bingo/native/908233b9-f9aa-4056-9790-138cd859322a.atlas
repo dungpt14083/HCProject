@@ -1,0 +1,48 @@
+
+bingo.png
+size: 349,259
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+yellow@2x
+  rotate: false
+  xy: 2, 113
+  size: 141, 144
+  orig: 149, 149
+  offset: 4, 0
+  index: -1
+贝壳2@2x
+  rotate: true
+  xy: 209, 39
+  size: 107, 100
+  orig: 107, 100
+  offset: 0, 0
+  index: -1
+贝壳3@2x
+  rotate: true
+  xy: 106, 2
+  size: 109, 101
+  orig: 109, 101
+  offset: 0, 0
+  index: -1
+贝壳4@2x
+  rotate: true
+  xy: 145, 148
+  size: 109, 101
+  orig: 109, 101
+  offset: 0, 0
+  index: -1
+贝壳5@2x
+  rotate: true
+  xy: 2, 2
+  size: 109, 102
+  orig: 109, 102
+  offset: 0, 0
+  index: -1
+贝壳@2x
+  rotate: true
+  xy: 248, 150
+  size: 107, 99
+  orig: 107, 99
+  offset: 0, 0
+  index: -1

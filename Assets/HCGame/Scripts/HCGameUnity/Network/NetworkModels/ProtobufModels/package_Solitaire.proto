@@ -1,0 +1,122 @@
+syntax = "proto3";
+package hcGames.Solitaire;
+
+message PackageData {
+    uint32 header = 1;
+    bytes data = 2;
+}
+
+message CCData {
+    uint64 miniGameEventId = 1;
+    uint64 waitingTimeId = 2;
+    string token = 3;
+}
+
+message FindingRoom {
+    string  userCodeId = 1;
+    int32   level = 2;
+    int32   gameType = 3;
+    int32   playType = 4;
+    int32   mmr = 5;
+	CCData  ccData = 6;
+}
+
+message FindingRoomResponse {
+    string roomId = 1;
+    string masterName = 2;
+}
+
+message CreateRoom {
+    string  userCodeId = 1;
+    int32   level = 2;
+    int32   gameType = 3;
+    int32   playType = 4;
+    int32   mmr = 5;
+	CCData  ccData = 6;
+}
+
+message CreateRoomResponse {
+    string roomId = 1;
+}
+
+message UpdateJoinRoom {
+    string nickname = 1;
+}
+
+message UpdateTurn {
+    uint64  userId = 1;
+    int32 errorCode = 2;
+}
+
+message Ping {
+    uint32  index = 1;
+}
+
+message EndGame {
+    uint64  winnerId = 1;
+}
+
+message Verify {
+    int32   userId = 1;
+    int32   guid = 2;
+    string  ver = 3;
+}
+
+message Card {
+  int32 number = 1;
+  int32 type = 2;
+}
+
+message CardData_Soli {
+  repeated Card remainCards = 1;
+  repeated Card colum1 = 2;
+  repeated Card colum2 = 3;
+  repeated Card colum3 = 4;
+  repeated Card colum4 = 5;
+  repeated Card colum5 = 6;
+  repeated Card colum6 = 7;
+  repeated Card colum7 = 8;
+ int32 timePlay = 9;
+}
+
+message UpdatePoint_Soli {
+  int32 point = 1;
+}
+
+message PointSolitaire {
+  int32 point = 1;
+}
+
+message EndGame_Soli {
+  string  winnerId = 1;
+}
+
+message timeOut {
+  bool  timeOut = 1;
+}
+
+message moveCard {
+    repeated Card card = 1;
+    int32 from = 2;
+    int32 to = 3;
+}
+
+message UpdateMove {
+    string  userCodeId = 1;
+    uint64  point = 2;
+    int32 errorCode = 3;
+    bool canUndo = 4;
+}
+message DataUndo {
+    bool isMove = 1;
+    int32 from = 2;
+    int32 to = 3;
+    repeated Card listCard = 4;
+}
+message updateCompetitionPoint {
+    uint64  competitionPoint = 1;
+}
+
+message GeneralError {
+  int32 errorCode = 1;
+}

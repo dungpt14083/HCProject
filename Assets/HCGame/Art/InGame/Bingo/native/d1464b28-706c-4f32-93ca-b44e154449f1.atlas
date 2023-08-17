@@ -1,0 +1,13 @@
+
+hei.png
+size: 754,1628
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hei
+  rotate: false
+  xy: 2, 2
+  size: 750, 1624
+  orig: 750, 1624
+  offset: 0, 0
+  index: -1

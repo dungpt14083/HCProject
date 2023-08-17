@@ -1,0 +1,125 @@
+
+zy.png
+size: 636,530
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: true
+  xy: 2, 32
+  size: 496, 225
+  orig: 498, 227
+  offset: 1, 1
+  index: -1
+shang
+  rotate: true
+  xy: 426, 111
+  size: 139, 46
+  orig: 141, 49
+  offset: 1, 1
+  index: -1
+xia
+  rotate: false
+  xy: 2, 5
+  size: 136, 25
+  orig: 136, 26
+  offset: 0, 0
+  index: -1
+yanbai
+  rotate: true
+  xy: 363, 111
+  size: 139, 61
+  orig: 141, 64
+  offset: 1, 1
+  index: -1
+yanqiu
+  rotate: false
+  xy: 474, 114
+  size: 106, 33
+  orig: 108, 35
+  offset: 1, 1
+  index: -1
+you
+  rotate: true
+  xy: 504, 396
+  size: 132, 119
+  orig: 132, 120
+  offset: 0, 0
+  index: -1
+you1
+  rotate: true
+  xy: 511, 12
+  size: 100, 123
+  orig: 100, 123
+  offset: 0, 0
+  index: -1
+zuo
+  rotate: true
+  xy: 474, 149
+  size: 134, 121
+  orig: 134, 121
+  offset: 0, 0
+  index: -1
+zuo1
+  rotate: true
+  xy: 504, 294
+  size: 100, 123
+  orig: 100, 123
+  offset: 0, 0
+  index: -1
+嘴巴
+  rotate: true
+  xy: 458, 285
+  size: 45, 41
+  orig: 50, 44
+  offset: 1, 1
+  index: -1
+牌子
+  rotate: true
+  xy: 229, 240
+  size: 288, 125
+  orig: 290, 127
+  offset: 1, 1
+  index: -1
+脸
+  rotate: true
+  xy: 356, 332
+  size: 196, 146
+  orig: 198, 148
+  offset: 1, 1
+  index: -1
+触手1
+  rotate: false
+  xy: 363, 2
+  size: 72, 107
+  orig: 72, 120
+  offset: 0, 0
+  index: -1
+触手2
+  rotate: false
+  xy: 437, 2
+  size: 72, 107
+  orig: 72, 120
+  offset: 0, 0
+  index: -1
+触手3
+  rotate: true
+  xy: 356, 252
+  size: 78, 49
+  orig: 80, 51
+  offset: 1, 1
+  index: -1
+触手4
+  rotate: true
+  xy: 407, 252
+  size: 78, 49
+  orig: 80, 51
+  offset: 1, 1
+  index: -1
+身体
+  rotate: true
+  xy: 229, 17
+  size: 221, 132
+  orig: 221, 142
+  offset: 0, 0
+  index: -1
